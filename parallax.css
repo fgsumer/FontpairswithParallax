@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* perspective: 1px; */
+  /* height: 100%; */
+  overflow-y: scroll;
+}
+h3 {
+  padding-top: 15rem;
+  margin: 0;
+}
+a:link,
+a:visited {
+  color: ;
+}
+div {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+div:nth-child(1) {
+  background: #003049;
+  color: aliceblue;
+}
+div:nth-child(2) {
+  /* background: #cbd9cd; */
+  background: #f1ecd1;
+}
+div:nth-child(3) {
+  background-image: url(/images/image-1.jpg);
+  background-position: center;
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div:nth-child(4) {
+  background: #d93b3b;
+}
+div:nth-child(5) {
+  background-image: url(/images/image-4.jpg);
+  background-position: center top;
+  color: black;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* font-family: 'Playfair Display', ;
+font-family: 'Titillium Web', ;
+font-family: 'Pacifico', ;
+font-family: 'Shadows Into Light', ;
+font-family: 'Abril Fatface', ;
+font-family: 'Satisfy', ;
+font-family: 'Kalam', ;
+font-family: 'Special Elite', ;
+font-family: 'Neucha', ;
+font-family: 'Fredericka the Great', ; */
+div:nth-child(7) {
+  background-image: url(/images/image-2.jpg);
+  background-position: center top;
+  color: black;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div:nth-child(8) {
+  background: #0294a5;
+  height: 70vh;
+}
+div:nth-child(9) {
+  background-image: url(/images/image-5.jpg);
+  background-position: center top;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div:nth-child(10) {
+  background: #522e75;
+}
