@@ -5,14 +5,41 @@ body {
   /* height: 100%; */
   overflow-y: scroll;
 }
+div.container-1 > h1 {
+  padding: 15rem 7rem 0 7rem;
+  margin: 0;
+  font-family: 'Abril Fatface';
+  font-size: 9rem;
+  font-weight: lighter;
+  letter-spacing: 0.5rem;
+  color: #d0d9dd;
+}
+div.container-1 > p:first-of-type {
+  font-size: 2rem;
+  font-weight: lighter;
+  /* font-family: 'Abril Fatface'; */
+  letter-spacing: 0.1rem;
+}
+div.container-1 > p {
+  font-size: 1.3rem;
+  padding-left: 7rem;
+  padding-right: 10rem;
+  font-family: 'Open Sans';
+  color: #5c7b8b;
+}
+
+.container-1 a:link,
+.container-1 a:visited,
+.container-1 a:hover,
+.container-1 a:active {
+  color: #5c7b8b;
+}
+
 h3 {
   padding-top: 15rem;
   margin: 0;
 }
-a:link,
-a:visited {
-  color: ;
-}
+
 div {
   padding: 0;
   margin: 0;
@@ -35,6 +62,22 @@ div:nth-child(3) {
   background-size: cover;
   background-attachment: fixed;
 }
+
+/* h3.div3 {
+  color: red;
+  padding-top: 3rem;
+}
+.div3 {
+  column-count: 2;
+  column-gap: 4rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+} */
+hr {
+  margin-left: 8rem;
+  margin-right: 68rem;
+  margin-top: 0.5rem;
+}
 div:nth-child(4) {
   background: #d93b3b;
 }
@@ -45,16 +88,6 @@ div:nth-child(5) {
   background-size: cover;
   background-attachment: fixed;
 }
-/* font-family: 'Playfair Display', ;
-font-family: 'Titillium Web', ;
-font-family: 'Pacifico', ;
-font-family: 'Shadows Into Light', ;
-font-family: 'Abril Fatface', ;
-font-family: 'Satisfy', ;
-font-family: 'Kalam', ;
-font-family: 'Special Elite', ;
-font-family: 'Neucha', ;
-font-family: 'Fredericka the Great', ; */
 div:nth-child(7) {
   background-image: url(/images/image-2.jpg);
   background-position: center top;
@@ -77,4 +110,39 @@ div:nth-child(9) {
 }
 div:nth-child(10) {
   background: #522e75;
+}
+/* font-family: 'Playfair Display';
+font-family: 'Source Sans Pro';
+font-family: 'Abril Fatface';
+font-family: 'Open Sans';
+font-family: 'Julius Sans One';
+font-family: 'Archivo Narrow';
+font-family: 'Bebas Neue';
+font-family: 'Montserrat';
+font-family: 'Yeseva One';
+font-family: 'Merriweather Sans';
+font-family: 'Vidaloka';
+font-family: 'Noto Sans';
+font-family: 'Fjalla One';
+font-family: 'Amatic SC';
+font-family: 'Josefin Sans';
+font-family: 'Cinzel';
+font-family: 'Raleway'; */
+@media only screen and (max-width: 768px) {
+  div.container-1 > h1 {
+    padding: 7rem 4rem 0 4rem;
+    font-size: 4rem;
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+  }
+  div.container-1 > p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+  }
+  div.container-1 > p {
+    font-size: 1rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+  }
 }
