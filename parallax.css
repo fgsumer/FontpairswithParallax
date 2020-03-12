@@ -140,6 +140,13 @@ div.container-4 > p {
   font-size: 1.1rem;
   font-style: italic;
 }
+.container-4 a:link,
+.container-4 a:visited,
+.container-4 a:hover,
+.container-4 a:active {
+  color: inherit;
+  text-decoration: none;
+}
 
 div:nth-child(5) {
   background-image: url(/images/image-4.jpg);
