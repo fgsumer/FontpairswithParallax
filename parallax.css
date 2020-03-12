@@ -8,8 +8,8 @@ body {
 div.container-1 > h1 {
   padding: 15rem 7rem 0 7rem;
   margin: 0;
-  font-family: 'Abril Fatface';
-  font-size: 9rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1rem;
   font-weight: lighter;
   letter-spacing: 0.5rem;
   color: #d0d9dd;
@@ -17,14 +17,13 @@ div.container-1 > h1 {
 div.container-1 > p:first-of-type {
   font-size: 2rem;
   font-weight: lighter;
-  /* font-family: 'Abril Fatface'; */
   letter-spacing: 0.1rem;
 }
 div.container-1 > p {
   font-size: 1.3rem;
   padding-left: 7rem;
   padding-right: 10rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #5c7b8b;
 }
 
@@ -50,43 +49,132 @@ div:nth-child(1) {
   background: #003049;
   color: aliceblue;
 }
+
 div:nth-child(2) {
-  /* background: #cbd9cd; */
   background: #f1ecd1;
+  color: #3b4149;
 }
-div:nth-child(3) {
+div.container-2 > h3 {
+  color: #3b4149;
+  font-family: 'Amatic SC';
+  padding: 7rem 4rem 0 4rem;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+div.container-2 > p {
+  font-family: 'Josefin Sans';
+  padding-left: 4rem;
+  padding-right: 5rem;
+  padding-top: 2.5rem;
+  font-size: 1.2rem;
+
+  /* font-size: 1.3rem;
+  padding-left: 7rem;
+  padding-right: 10rem;
+  font-family: 'Open Sans';
+  color: #5c7b8b; */
+}
+.container-2 a:link,
+.container-2 a:visited,
+.container-2 a:hover,
+.container-2 a:active {
+  color: #3b4149;
+  text-decoration: none;
+}
+/* div:nth-child(3) {
   background-image: url(/images/image-1.jpg);
   background-position: center;
   color: aliceblue;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+} */
+div.container-3 {
+  background-image: url(/images/image-1.jpg);
+  background-position: center;
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+div.container-3 > h3 {
+  font-family: 'Julius Sans One';
+  padding: 7rem 5rem 0 5rem;
+  font-size: 3.2rem;
+}
+div.container-3 > p {
+  font-family: 'Archivo Narrow';
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2.5rem;
+  font-size: 1rem;
 }
 
-/* h3.div3 {
-  color: red;
-  padding-top: 3rem;
-}
-.div3 {
-  column-count: 2;
-  column-gap: 4rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
-} */
-hr {
-  margin-left: 8rem;
-  margin-right: 68rem;
-  margin-top: 0.5rem;
-}
-div:nth-child(4) {
+div.container-4 {
   background: #d93b3b;
+  color: #0b152f;
+  font-family: 'Lora', serif;
+  text-align: right;
 }
+hr {
+  border: 0.2rem solid #0b152f;
+  border-width: 0.1rem;
+  width: 10rem;
+  text-align: right;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+
+  /* margin: 3rem auto 0 0; */
+}
+div.container-4 > h3 {
+  padding: 10rem 5rem 0 5rem;
+  font-size: 3.2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+div.container-4 > p {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
 div:nth-child(5) {
   background-image: url(/images/image-4.jpg);
   background-position: center top;
   color: black;
   background-size: cover;
   background-attachment: fixed;
+}
+
+div.container-6 {
+  text-align: center;
+  background-color: #1e1f26;
+}
+div.container-6 > h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 5rem 5rem 0 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+div.container-6 > p {
+  font-family: 'Raleway';
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2.5rem;
+  font-size: 1rem;
+  color: #e6e6ea;
+}
+
+.container-6 a:link,
+.container-6 a:visited,
+.container-6 a:hover,
+.container-6 a:active {
+  color: inherit;
+  text-decoration: none;
 }
 div:nth-child(7) {
   background-image: url(/images/image-2.jpg);
