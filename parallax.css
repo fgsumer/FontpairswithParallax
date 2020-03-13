@@ -233,6 +233,23 @@ div:nth-child(9) {
   background-attachment: fixed;
   color: #d93b3b;
 }
+
+div.container-9 > h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 5rem 5rem 0 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+div.container-9 > p {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2.5rem;
+  font-size: 1.2rem;
+}
 div:nth-child(10) {
   background: #522e75;
   color: #c9bed8;
@@ -265,17 +282,6 @@ div.container-10 > h3 {
   }
 }
 
-/* @media only screen and (min-width: 768px) {
-  div.container-8 > p {
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-top: 1rem;
-  }
-  div.container-8 > hr {
-    width: 19rem;
-  }
-} */
-
 @media only screen and (min-width: 768px) {
   div.container-8 > p {
     padding-left: 10rem;
@@ -285,10 +291,10 @@ div.container-10 > h3 {
   div.container-8 > hr {
     width: 19rem;
   }
-  /* div.container-10 > h3 {
-    padding-top: 7rem;
-    width: 15rem;
-  } */
+  div.container-9 > p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }
 @media only screen and (min-width: 992px) {
   div.container-8 > p {
@@ -298,6 +304,10 @@ div.container-10 > h3 {
   }
   div.container-8 > hr {
     width: 19rem;
+  }
+  div.container-9 > p {
+    padding-left: 18rem;
+    padding-right: 18rem;
   }
   /* div.container-10 > h3 {
     padding-top: 7rem;
