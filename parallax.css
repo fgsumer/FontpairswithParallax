@@ -1,8 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  /* perspective: 1px; */
-  /* height: 100%; */
   overflow-y: scroll;
 }
 
@@ -25,27 +23,32 @@ a:hover,
   color: inherit;
   text-decoration: none;
 }
+
 div.container-1 > h1 {
-  padding: 15rem 7rem 0 7rem;
-  margin: 0;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 1rem;
+  margin: 0;
+  padding-top: 7rem;
+  padding-left: 4rem;
+  font-size: 3.5rem;
   font-weight: lighter;
   letter-spacing: 0.5rem;
   color: #d0d9dd;
 }
+
 div.container-1 > p:first-of-type {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   letter-spacing: 0.1rem;
 }
+
 div.container-1 > p {
-  font-size: 1.3rem;
-  padding-left: 7rem;
-  padding-right: 10rem;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #5c7b8b;
+  font-size: 1rem;
+  padding-left: 4rem;
+  padding-right: 5rem;
 }
+
 .container-1 a:link,
 .container-1 a:visited,
 .container-1 a:hover,
@@ -91,15 +94,15 @@ div.container-3 {
 }
 div.container-3 > h3 {
   font-family: 'Julius Sans One';
-  padding: 7rem 5rem 0 5rem;
-  font-size: 3.2rem;
+  padding: 5rem 5rem 0 5rem;
+  font-size: 3rem;
 }
 div.container-3 > p {
   font-family: 'Archivo Narrow';
-  padding-left: 5rem;
-  padding-right: 5rem;
   padding-top: 2.5rem;
   font-size: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 div.container-4 {
@@ -116,8 +119,6 @@ div.container-4 > hr {
   margin-right: 5rem;
   margin-top: 2rem;
   margin-bottom: 0;
-
-  /* margin: 3rem auto 0 0; */
 }
 div.container-4 > h3 {
   padding: 10rem 5rem 0 5rem;
@@ -142,15 +143,14 @@ div:nth-child(5) {
 
 div.container-5 > h3 {
   font-family: 'Alfa Slab One', cursive;
-  padding: 5rem 5rem 0 5rem;
-  font-size: 2.5rem;
   text-align: center;
+  font-size: 2rem;
+  padding: 3rem 3rem 0 3rem;
 }
 
 div.container-5 > p {
   font-family: 'Gentium Book Basic', serif;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 3rem;
   padding-top: 2.5rem;
   font-size: 1rem;
   text-align: justify;
@@ -173,9 +173,11 @@ div.container-9 {
 div.container-6 > h3,
 div.container-9 > h3 {
   font-family: 'Montserrat Alternates', sans-serif;
-  padding: 5rem 5rem 0 5rem;
+  padding: 3rem 3rem 0 3rem;
   font-size: 3rem;
+  font-weight: bold;
 }
+
 div.container-9 > h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -185,9 +187,8 @@ div.container-9 > h3 {
 div.container-6 > p,
 div.container-9 > p {
   font-family: 'Raleway';
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 2.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   font-size: 1rem;
   color: #e6e6ea;
 }
@@ -209,6 +210,7 @@ div.container-7 > p {
 }
 div.container-7 > h3 {
   font-family: 'Fjalla One';
+  font-size: 3.2rem;
 }
 div.container-8 {
   background: #0294a5;
@@ -219,12 +221,11 @@ img {
   position: relative;
   padding-top: 4rem;
   left: 48%;
-  /* transform: translate(-50%, -50%); */
   font-size: 18px;
 }
 div.container-8 > h3 {
   font-family: 'Playfair Display', serif;
-  padding: 3rem 5rem 0 5rem;
+  padding: 3rem 3rem 0 3rem;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -234,19 +235,15 @@ div.container-8 > p {
   padding-left: 5rem;
   padding-right: 5rem;
   margin-right: 0;
-  padding-top: 2rem;
   font-size: 1rem;
   text-align: justify;
 }
 div.container-8 > hr {
   border: 0.02rem dotted #043054;
   border-width: 0.07rem;
-  width: 21rem;
+  width: 14rem;
   text-align: center;
-  margin-top: 2rem;
   margin-bottom: 0;
-
-  /* margin: 3rem auto 0 0; */
 }
 
 div:nth-child(10) {
@@ -255,33 +252,65 @@ div:nth-child(10) {
 }
 div.container-10 > h3 {
   font-family: 'Abril Fatface', cursive;
-  padding: 5rem 5rem 0 5rem;
+  padding: 3rem 3rem 0 3rem;
   font-size: 3rem;
   text-align: center;
   font-size: 5rem;
   text-decoration-line: underline;
 }
-
-@media only screen and (max-width: 768px) {
-  div.container-1 > h1 {
-    padding: 7rem 4rem 0 4rem;
-    font-size: 4rem;
-    font-weight: lighter;
-    letter-spacing: 0.5rem;
-  }
-  div.container-1 > p:first-of-type {
-    font-size: 1.5rem;
-    font-weight: lighter;
-    letter-spacing: 0.1rem;
-  }
-  div.container-1 > p {
-    font-size: 1rem;
-    padding-left: 4rem;
-    padding-right: 5rem;
-  }
-}
+/* AZBÜYÜK EKRAN */
 
 @media only screen and (min-width: 768px) {
+  div {
+    padding-top: 12rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  div.container-1 > h1 {
+    padding: 0rem 7rem 0 7rem;
+    margin: 0;
+    font-size: 7rem;
+  }
+  div.container-1 > p {
+    font-size: 1.3rem;
+    padding-left: 7rem;
+    padding-right: 10rem;
+  }
+  div.container-1 > p:first-of-type {
+    font-size: 2rem;
+  }
+
+  div.container-2 > h3,
+  p,
+  div.container-3 > h3,
+  p {
+    font-size: 4rem;
+    /* padding-left: 6rem; */
+    padding-right: 6rem;
+  }
+  div.container-2 > p {
+    font-size: 1.4rem;
+  }
+  div.container-3 > h3 {
+    font-size: 3.2rem;
+  }
+  div.container-3 > p {
+    font-size: 1.3rem;
+  }
+  div.container-4 > h3 {
+    font-size: 3.5rem;
+  }
+  div.container-4 > p {
+    font-size: 1.5rem;
+  }
+
+  div.container-5 > h3 {
+    font-size: 2.5rem;
+  }
+
+  div.container-5 > p {
+    font-size: 1.3rem;
+  }
   div.container-8 > p {
     padding-left: 10rem;
     padding-right: 10rem;
@@ -293,9 +322,60 @@ div.container-10 > h3 {
   div.container-9 > p {
     padding-left: 10rem;
     padding-right: 10rem;
+    font-size: 1.7rem;
+  }
+  div.container-9 > h3 {
+    font-size: 3.5rem;
+  }
+  div.container-6 > p {
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 }
 @media only screen and (min-width: 992px) {
+  div.container-1 > h1 {
+    padding-top: 7rem;
+    font-size: 7rem;
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+    color: #d0d9dd;
+  }
+  div.container-1 > p {
+    font-size: 1.8rem;
+  }
+  div.container-2 > h3 {
+    font-size: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  div.container-2 > p {
+    font-size: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  div.container-3 > h3 {
+    font-size: 4.7rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  div.container-3 > p {
+    font-size: 1.8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  div.container-4 > h3 {
+    font-size: 4rem;
+  }
+  div.container-4 > p {
+    font-size: 2rem;
+  }
+  div.container-5 > h3 {
+    font-size: 2.7rem;
+  }
+
+  div.container-5 > p {
+    font-size: 1.5rem;
+  }
   div.container-8 > p {
     padding-left: 20rem;
     padding-right: 20rem;
@@ -304,8 +384,9 @@ div.container-10 > h3 {
   div.container-8 > hr {
     width: 19rem;
   }
-  div.container-9 > p {
-    padding-left: 18rem;
-    padding-right: 18rem;
+
+  div.container-6 > p {
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 }
