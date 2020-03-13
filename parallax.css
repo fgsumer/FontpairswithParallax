@@ -5,6 +5,26 @@ body {
   /* height: 100%; */
   overflow-y: scroll;
 }
+
+h3 {
+  padding-top: 15rem;
+  margin: 0;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+a:link,
+a:visited,
+a:hover,
+.a:active {
+  color: inherit;
+  text-decoration: none;
+}
 div.container-1 > h1 {
   padding: 15rem 7rem 0 7rem;
   margin: 0;
@@ -26,25 +46,14 @@ div.container-1 > p {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #5c7b8b;
 }
-
 .container-1 a:link,
 .container-1 a:visited,
 .container-1 a:hover,
 .container-1 a:active {
-  color: #5c7b8b;
+  color: inherit;
+  text-decoration: underline;
 }
 
-h3 {
-  padding-top: 15rem;
-  margin: 0;
-}
-
-div {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-}
 div:nth-child(1) {
   background: #003049;
   color: aliceblue;
@@ -74,13 +83,7 @@ div.container-2 > p {
   font-family: 'Open Sans';
   color: #5c7b8b; */
 }
-.container-2 a:link,
-.container-2 a:visited,
-.container-2 a:hover,
-.container-2 a:active {
-  color: #3b4149;
-  text-decoration: none;
-}
+
 /* div:nth-child(3) {
   background-image: url(/images/image-1.jpg);
   background-position: center;
@@ -117,7 +120,7 @@ div.container-4 {
   font-family: 'Lora', serif;
   text-align: right;
 }
-hr {
+div.container-4 > hr {
   border: 0.2rem solid #0b152f;
   border-width: 0.07rem;
   width: 20rem;
@@ -139,13 +142,6 @@ div.container-4 > p {
   padding-right: 5rem;
   font-size: 1.1rem;
   font-style: italic;
-}
-.container-4 a:link,
-.container-4 a:visited,
-.container-4 a:hover,
-.container-4 a:active {
-  color: inherit;
-  text-decoration: none;
 }
 
 div:nth-child(5) {
@@ -171,14 +167,9 @@ div.container-5 > p {
   font-size: 1rem;
   text-align: justify;
   line-height: 1.5rem;
+  position: static;
 }
-.container-5 a:link,
-.container-5 a:visited,
-.container-5 a:hover,
-.container-5 a:active {
-  color: inherit;
-  text-decoration: none;
-}
+
 div.container-6 {
   text-align: center;
   background-color: #1e1f26;
@@ -199,13 +190,6 @@ div.container-6 > p {
   color: #e6e6ea;
 }
 
-.container-6 a:link,
-.container-6 a:visited,
-.container-6 a:hover,
-.container-6 a:active {
-  color: inherit;
-  text-decoration: none;
-}
 div:nth-child(7) {
   background-image: url(/images/image-2.jpg);
   background-position: center top;
@@ -215,13 +199,45 @@ div:nth-child(7) {
   color: #672c19;
 }
 
-div:nth-child(8) {
+div.container-8 {
   background: #0294a5;
-  height: 70vh;
-  /* color: #4c5c68; */
-
   color: #043054;
 }
+img {
+  height: 3rem;
+  position: relative;
+  padding-top: 4rem;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  font-size: 18px;
+}
+div.container-8 > h3 {
+  font-family: 'Playfair Display', serif;
+  padding: 3rem 5rem 0 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+div.container-8 > p {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-right: 0;
+  padding-top: 2rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+div.container-8 > hr {
+  border: 0.02rem dotted #043054;
+  border-width: 0.07rem;
+  width: 21rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+
+  /* margin: 3rem auto 0 0; */
+}
+
 div:nth-child(9) {
   background-image: url(/images/image-5.jpg);
   background-position: center top;
@@ -235,23 +251,7 @@ div:nth-child(10) {
   background: #522e75;
   color: #c9bed8;
 }
-/* font-family: 'Playfair Display';
-font-family: 'Source Sans Pro';
-font-family: 'Abril Fatface';
-font-family: 'Open Sans';
-font-family: 'Julius Sans One';
-font-family: 'Archivo Narrow';
-font-family: 'Bebas Neue';
-font-family: 'Montserrat';
-font-family: 'Yeseva One';
-font-family: 'Merriweather Sans';
-font-family: 'Vidaloka';
-font-family: 'Noto Sans';
-font-family: 'Fjalla One';
-font-family: 'Amatic SC';
-font-family: 'Josefin Sans';
-font-family: 'Cinzel';
-font-family: 'Raleway'; */
+
 @media only screen and (max-width: 768px) {
   div.container-1 > h1 {
     padding: 7rem 4rem 0 4rem;
@@ -268,5 +268,37 @@ font-family: 'Raleway'; */
     font-size: 1rem;
     padding-left: 4rem;
     padding-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.container-8 > p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+  }
+  div.container-8 > hr {
+    width: 19rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.container-8 > p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+  }
+  div.container-8 > hr {
+    width: 19rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  div.container-8 > p {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+  }
+  div.container-8 > hr {
+    width: 19rem;
   }
 }
