@@ -63,14 +63,16 @@ div:nth-child(2) {
   background: #f1ecd1;
   color: #3b4149;
 }
-div.container-2 > h3 {
-  color: #3b4149;
+div.container-2 > h3,
+div.container-7 > h3 {
   font-family: 'Amatic SC';
   padding: 7rem 4rem 0 4rem;
   font-size: 4.5rem;
   font-weight: bold;
 }
-div.container-2 > p {
+
+div.container-2 > p,
+div.container-7 > p {
   font-family: 'Josefin Sans';
   padding-left: 4rem;
   padding-right: 5rem;
@@ -160,14 +162,28 @@ div.container-6 {
   text-align: center;
   background-color: #1e1f26;
 }
-div.container-6 > h3 {
+div.container-9 {
+  background-image: url(/images/image-5.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+div.container-6 > h3,
+div.container-9 > h3 {
   font-family: 'Montserrat Alternates', sans-serif;
   padding: 5rem 5rem 0 5rem;
   font-size: 3rem;
-  text-align: center;
+}
+div.container-9 > h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #d93b3b;
 }
 
-div.container-6 > p {
+div.container-6 > p,
+div.container-9 > p {
   font-family: 'Raleway';
   padding-left: 5rem;
   padding-right: 5rem;
@@ -175,16 +191,25 @@ div.container-6 > p {
   font-size: 1rem;
   color: #e6e6ea;
 }
+div.container-9 > p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2rem;
+  color: #d93b3b;
+}
 
 div:nth-child(7) {
   background-image: url(/images/image-2.jpg);
   background-position: center top;
-  color: black;
   background-size: cover;
   background-attachment: fixed;
   color: #672c19;
 }
-
+div.container-7 > p {
+  font-family: 'Noto Sans';
+}
+div.container-7 > h3 {
+  font-family: 'Fjalla One';
+}
 div.container-8 {
   background: #0294a5;
   color: #043054;
@@ -224,32 +249,6 @@ div.container-8 > hr {
   /* margin: 3rem auto 0 0; */
 }
 
-div:nth-child(9) {
-  background-image: url(/images/image-5.jpg);
-  background-position: center top;
-  color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #d93b3b;
-}
-
-div.container-9 > h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  padding: 5rem 5rem 0 5rem;
-  font-size: 3rem;
-  text-align: center;
-}
-
-div.container-9 > p {
-  text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 2.5rem;
-  font-size: 1.2rem;
-}
 div:nth-child(10) {
   background: #522e75;
   color: #c9bed8;
@@ -309,7 +308,4 @@ div.container-10 > h3 {
     padding-left: 18rem;
     padding-right: 18rem;
   }
-  /* div.container-10 > h3 {
-    padding-top: 7rem;
-  } */
 }
