@@ -84,7 +84,7 @@ div.container-7 > p {
 }
 
 div.container-3 {
-  background-image: url(/images/image-1.jpg);
+  background-image: url(images/image-1.jpg);
   background-position: center;
   color: aliceblue;
   background-repeat: no-repeat;
