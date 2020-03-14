@@ -134,7 +134,7 @@ div.container-4 > p {
 }
 
 div:nth-child(5) {
-  background-image: url("/images/image-4.jpg");
+  background-image: url("images/image-4.jpg");
   background-position: center top;
   color: black;
   background-size: cover;
@@ -163,7 +163,7 @@ div.container-6 {
   background-color: #1e1f26;
 }
 div.container-9 {
-  background-image: url("/images/image-5.jpg");
+  background-image: url("images/image-5.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +198,7 @@ div.container-9 > p {
 }
 
 div:nth-child(7) {
-  background-image: url("/images/image-2.jpg");
+  background-image: url("images/image-2.jpg");
   background-position: center top;
   background-size: cover;
   background-attachment: fixed;
