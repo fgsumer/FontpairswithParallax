@@ -172,14 +172,13 @@ div.container-9 {
 }
 div.container-6 > h3,
 div.container-9 > h3 {
-  font-family: 'Montserrat Alternates', sans-serif;
   padding: 3rem 3rem 0 3rem;
   font-size: 3rem;
   font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 div.container-9 > h3 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #d93b3b;
 }
@@ -258,7 +257,6 @@ div.container-10 > h3 {
   font-size: 5rem;
   text-decoration-line: underline;
 }
-/* AZBÜYÜK EKRAN */
 
 @media only screen and (min-width: 768px) {
   div {
